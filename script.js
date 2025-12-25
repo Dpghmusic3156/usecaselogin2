@@ -75,7 +75,7 @@ loginForm.addEventListener('submit', function (event) {
         // chuyển hướng đến trang chủ
         setTimeout(() => {
             console.log('Chuyển hướng đến trang chủ...');
-            // window.location.href = 'home.html';
+            window.location.href = 'home.html';
         }, 2000);
     } else {
         showMessage('Tên đăng nhập hoặc mật khẩu không đúng!', 'error');
